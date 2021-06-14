@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: rgba( 95, 251, 121, 1.00 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+#calculator{
+    background: rgba( 13, 13, 13, 1.00 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20.0px );
+    -webkit-backdrop-filter: blur( 20.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    max-width: 400px;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    /* pointer-events: none; */
+}
+
+#calcScreen{
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    font-size: x-large;
+    background: rgba( 45, 243, 78, 1.00 );
+    width: 95%;
+    height: 130%;
+    justify-self: center;
+    margin-left: 2.5%;
+    margin-top: 10%;
+}                                                    
+
+.calcButtons {
+    width: 250px;
+    height: 340px;
+    display: flex;
+    margin-top: 20%;
+    margin-right: 4%;
+}
+  
+button {
+    width: 36px;
+    height: 35px;
+    margin-top: 18px;
+    margin-left: 18px;
+    font-weight: 300;
+    font-size: large;
+    border-radius: 50px;
+}
+  
+button:hover {
+    cursor: pointer;
+    
+}
+
+.numbers{
+    background: rgba( 13, 13, 13, 1.00 );
+    backdrop-filter: blur( 20.0px );
+    -webkit-backdrop-filter: blur( 20.0px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+}
+
+.numbers:hover {
+    background: rgba( 40, 39, 39, 1.00 );
+    backdrop-filter: blur( 20.0px );
+    -webkit-backdrop-filter: blur( 20.0px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+.operators{
+    background: rgba( 45, 243, 78, 1.00 );
+    backdrop-filter: blur( 20.0px );
+    -webkit-backdrop-filter: blur( 20.0px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: black;
+}
+
+.operators:hover {
+    background: rgba( 95, 251, 121, 1.00 );
+    backdrop-filter: blur( 20.0px );
+    -webkit-backdrop-filter: blur( 20.0px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.row{
+    margin-bottom: 5%;
+    margin-left: 2px;
+    margin-right: 2px;
+}
